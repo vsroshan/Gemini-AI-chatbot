@@ -21,8 +21,8 @@ def get_gemini_response(question):
     return response.text
 
 # Streamlit app setup
-st.set_page_config(page_title="Q&A Demo")
-st.header("Gemini Application")
+st.set_page_config(page_title="Gemini app ")
+st.header("Roshan's AI")
 
 input = st.text_input("Input: ", key="input")
 submit = st.button("Ask the question")
