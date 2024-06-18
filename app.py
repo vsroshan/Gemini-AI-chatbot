@@ -20,8 +20,13 @@ def get_gemini_response(question):
     response = model.generate_content(question)
     return response.text
 
+
 # Streamlit app setup
-st.set_page_config(page_title="Gemini app ")
+st.set_page_config(page_title="Roshan's AI ",
+    page_icon="logo.ico" ) # Specify the path to your favicon file
+               
+                   
+
 st.header("Roshan's AI")
 
 input = st.text_input("Input: ", key="input")
